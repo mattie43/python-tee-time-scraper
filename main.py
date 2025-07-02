@@ -7,7 +7,7 @@ app = FastAPI()
 @app.get("/testing")
 async def testing():
     return {
-        "content": "Successful GET for testing page"
+        "content": "Successful GET from testing endpoint"
     }
 
 @app.post("/scrape")
